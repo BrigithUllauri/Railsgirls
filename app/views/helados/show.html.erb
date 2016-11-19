@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @helado.Nombre %>
+</p>
+
+<p>
+  <strong>Descripcion:</strong>
+  <%= @helado.Descripcion %>
+</p>
+
+<p>
+  <strong>Picture:</strong>
+  <%= @helado.Picture %>
+</p>
+
+<p>
+  <strong>Precio:</strong>
+  <%= @helado.Precio %>
+</p>
+
+<%= link_to 'Edit', edit_helado_path(@helado) %> |
+<%= link_to 'Back', helados_path %>
